@@ -29,6 +29,10 @@ const links = ref([
     {
         name: "Button",
         href: '/button'
+    },
+    {
+        name: "Checkbox",
+        href: '/checkbox'
     }
 ])
 </script>
@@ -45,11 +49,9 @@ const links = ref([
   transition: 0.2s;
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.07);
   transform: translateX(-250px);
-
   &_isopen {
     transform: translateX(0px);
   }
-
   &__link {
     display: block;
     border-radius: 12px;

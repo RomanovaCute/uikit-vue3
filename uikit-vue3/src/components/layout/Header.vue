@@ -1,6 +1,6 @@
 <template>
     <header class="header">
-      <router-link to="/">UI Kit (Vue 3 + Composition API)</router-link>
+      <router-link class="title" to="/">UI Kit (Vue 3 + Composition API)</router-link>
     </header>
   </template>
   
@@ -15,5 +15,8 @@
     align-items: center;
     z-index: 1;
     position: relative;
+  }
+  .title {
+    color: var(--primary);
   }
   </style>
