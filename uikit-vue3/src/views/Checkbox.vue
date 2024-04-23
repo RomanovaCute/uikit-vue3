@@ -31,6 +31,18 @@
             v-model:value="selectedHeroes"
         />
     </div>
+    <h2 class="heading-2">Switch</h2>
+    <div class="line line_block">
+        <p>Switch: {{ switchProfessional }}</p>
+        <checkbox
+            label="I'm a professional"
+            id="switch"
+            name="switch"
+            value="I'm a professional"
+            type="switch"
+            v-model:checked="switchProfessional"
+        />
+    </div>
 </template>
 
 <script setup>
@@ -49,4 +61,6 @@ const listOfHeroes = ref([
     {name: 'Tor', id: 'h3'},
     {name: 'Loki', id: 'h4'},
   ])
+
+const switchProfessional = ref(false)
 </script>
