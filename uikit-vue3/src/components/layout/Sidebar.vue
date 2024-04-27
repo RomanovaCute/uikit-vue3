@@ -42,6 +42,10 @@ const links = ref([
         name: "Progress",
         href: '/progress'
     },
+    {
+        name: "Input",
+        href: '/input'
+    },
 ])
 </script>
 
